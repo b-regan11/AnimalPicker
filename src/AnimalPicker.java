@@ -5,7 +5,7 @@ public class AnimalPicker {
         Scanner scanner = new Scanner(System.in);
         
         while (true) {
-            System.out.println("Choose an animal: [dog or cat]");
+            System.out.println("Choose an animal: [dog, cat or fish]");
             String chosenAnimal = scanner.nextLine().toLowerCase();
             
             if (chosenAnimal.equals("dog")) {
@@ -14,9 +14,11 @@ public class AnimalPicker {
             } else if (chosenAnimal.equals("cat")) {
                 System.out.println("   |\\---/|\n   | ,_, |\n    \\_`_/-..----.\n ___/ `   \' ,\"\"+ \\  sk\n(__...\'   __\\    |`.___.\';\n  (_,...\'(_,.`__)/\'.....+");
                 break;
+            } else if (chosenAnimal.equals("fish")) {
+                System.out.println("Fish ASCII ART HERE");    
+                break;            
             } else {
                 System.out.println("Invalid choice. Please choose either 'dog' or 'cat'");
-                //System.exit(0);
             }
         }
         scanner.close();
