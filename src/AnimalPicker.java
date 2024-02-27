@@ -14,6 +14,9 @@ public class AnimalPicker {
             } else if (chosenAnimal.equals("cat")) {
                 System.out.println("   |\\---/|\n   | ,_, |\n    \\_`_/-..----.\n ___/ `   \' ,\"\"+ \\  sk\n(__...\'   __\\    |`.___.\';\n  (_,...\'(_,.`__)/\'.....+");
                 break;
+            }  else if (chosenAnimal.equals("fish")) {
+                System.out.println("      /`·.¸\n     /¸...¸`:·\n ¸.·´  ¸   `·.¸.·´)\n: © ):´;      ¸  {\n `·.¸ `·  ¸.·´\\`·¸)\n     `\\\\´´\\¸.·´\n");    
+                break;            
             } else {
                 System.out.println("Invalid choice. Please choose either 'dog' or 'cat'");
             }
